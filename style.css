@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+}
+
+#header{
+    font-family: 'Fredoka One', cursive;
+    font-size: 52px;
+}
+
+
+.box{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* border: solid 1px black; */
+  }
+
+
+  .card {
+      position: relative;
+      left: 80px;
+      width: 20rem;
+  }
+
+  .card-img-top{
+      height: 150px;
+      width: 150px;
+  } 
+
+  .card-title {
+      font-weight: bold;
+  }
+
+  .order-pic {
+      width: 40px;
+      height: auto;
+  }

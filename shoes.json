@@ -1,0 +1,84 @@
+[
+
+{
+  "id": 1,
+  "brand": "Nike",
+  "model": "Airmax 90",
+  "price": 1299,
+  "stock": 10,
+  "imgUrl": "https://c.static-nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/ce6b3c87-ddcd-4b45-bba2-5ec92c8d1dd1/sko-air-max-90-8s7vL8.jpg"
+},
+  {
+    "id": 2,
+    "brand": "Nike",
+    "model": "Pegasus",
+    "price": 899,
+    "stock": 10,
+    "imgUrl": "https://c.static-nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/nq9q6glpgt6ogjkbuel3/loparsko-air-zoom-pegasus-36-flyease-1Fb6sV.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "Nike",
+    "model": "Renew Run",
+    "price": 999,
+    "stock": 10,
+    "imgUrl": "https://c.static-nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/9bef2b01-7b28-413c-a196-918e08b7dcca/loparsko-renew-run-SPjMg8.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Nike",
+    "model": "SB Charge",
+    "price": 559,
+    "stock": 10,
+    "imgUrl": "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/f26uzbitovpbghbd67ri/skateboardsko-sb-charge-canvas-Tqq62w.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "Nike",
+    "model": "Air Zoom",
+    "price": 2299,
+    "stock": 10,
+    "imgUrl": "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/i1-a0959e68-7c8d-4f8b-ab3f-1043f678a4e8/hiit-sko-air-zoom-superrep-gSWSxQ.jpg"
+  },
+  {
+    "id": 6,
+    "brand": "Nike",
+    "model": "Kyrie 6",
+    "price": 1989,
+    "stock": 10,
+    "imgUrl": "https://c.static-nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/7f929319-54d3-4831-a204-e6c4812f72ae/basketsko-kyrie-6-VNtpvk.jpg"
+  },
+  {
+    "id": 7,
+    "brand": "Nike",
+    "model": "SB Shane",
+    "price": 899,
+    "stock": 10,
+    "imgUrl": "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/bfe1a6ea-e68d-47f0-b492-4cd7c2f59d1f/skatesko-sb-shane-WPKjz6.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "Nike",
+    "model": "React",
+    "price": 1399,
+    "stock": 10,
+    "imgUrl": "https://c.static-nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/321aa3cb-1ec1-4044-9ad4-1abaa9023bff/sko-react-element-55-x935p4.jpg"
+  },
+  {
+    "id": 9,
+    "brand": "Nike",
+    "model": "Blazer",
+    "price": 1099,
+    "stock": 10,
+    "imgUrl": "https://c.static-nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/86ec0564-f89f-4885-9345-f945d7b45bab/sko-blazer-mid-77-hhH8t6.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Nike",
+    "model": "Lebron 7",
+    "price": 2149,
+    "stock": 10,
+    "imgUrl": "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/i1-0ff195ae-df2a-4f6b-969c-ded775b90f84/sko-lebron-7-qs-fwqxFV.jpg"
+  }
+
+]
