@@ -1,38 +1,126 @@
+
 body{
     background-color: white;
+    font-family: 'Roboto',sans-serif;
 }
 
-#header{
+header{
     font-family: 'Fredoka One', cursive;
     font-size: 52px;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+h2 {
+background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+
+tr {
+    border-bottom: 1px solid #000000;
+}
+
+td {
+    padding: 10px;
 }
 
 
 .box{
-    position: relative;
+
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 85%;
     height: auto;
-    margin: auto;
-    /* border: solid 1px black; */
+    margin: auto
   }
 
+@media screen and (max-width: 600px) {
+
+    .logo {
+        width: 90%;
+        height: auto;
+        margin: auto
+    }
+
+    .box {
+        width: 90%;
+        height: auto;
+        margin: auto
+    }
+
+    .cart {
+        width: 70%;
+        height: auto;
+        margin: auto
+    }
+
+    button {
+        color: #000000;
+        background-color: #ffffff;
+        margin: 5px;
+    }
+}
+
+.card-body{
+    margin-bottom: 20px;
+  }
+
+.add-btn {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.add-btn:hover {
+    color: darkgray;
+}
+
+.button {
+    border: solid 0.1em #000000;
+    border-radius: 0;
+    font-weight: 300;
+    background-color: white;
+    color: black;
+    padding: 0.35em 1.2em;
+}
+.remove-btn {
+    background: none;
+    outline: none;
+    border: none;
+}
+.button:hover{
+    color: white;
+    background-color: #000000;
+}
+
+.button:focus {
+    outline: none;
+}
 
   .card {
       position: relative;
-      left: 80px;
-      width: 20rem;
+      margin-left: 40px;
   }
 
   .card-img-top{
-      height: 150px;
+      height: auto;
       width: 150px;
-  } 
+  }
 
   .card-title {
       font-weight: bold;
   }
+
+  .cart {
+      margin-bottom: 30px;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
 
   .order-pic {
       width: 40px;

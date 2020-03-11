@@ -9,23 +9,27 @@
     <link
       href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
       rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://kit.fontawesome.com/c4826e9f54.js" crossorigin="anonymous"></script>
     <title>ShoeShop</title>
   </head>
+
+  <header>
+      <img src="images/logo.png" class="logo" alt="logo">
+  </header>
   <body class="container">
-    <h1 id="header" class="text-center">ShoeShop</h1>
+
     <div class="box">
     </div>
     <div class = "cart text-center">
       <h2 class="text-left">Varukorg</h2>
-<table class="table table-borderless cart-table text-left">
+<table class="table cart-table text-left">
 </table>
-        <hr>
-        <h3 id="totalCartPrice" class="text-center"></h3>
-        <a href="orderconf.html" target="_blank"><button class="btn btn-primary" id="order-btn">Bekräfta beställning</button></a>
-        <button class="btn btn-primary" id="clear-cart">Rensa varukorg</button>
+        <h4 id="totalCartPrice" class="text-right"></h4>
+        <a href="orderconf.html" target="_blank"><button class="button" id="order-btn">Bekräfta beställning</button></a>
+        <button class="button" id="clear-cart">Rensa varukorg</button>
     </div>
     <script src="main.js"></script>
   </body>

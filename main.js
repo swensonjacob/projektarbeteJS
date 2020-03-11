@@ -154,7 +154,7 @@ $(document).ready(function () {
             Price: ${shoe.price} kr
         </p>
         <input type="number" id="quantity-${shoe.id}" name="quantity" value="1" min="1" max="5">
-        <button type="button" class="btn btn-primary" id="button-${shoe.id}">Lägg till</button>
+        <button type="button" class="add-btn" id="button-${shoe.id}"><i class="fas fa-cart-plus"></i></button>
             </div>
             </div>`);
         }
@@ -165,8 +165,9 @@ $(document).ready(function () {
         <td>Antal:<input type="number" id="cartQuantity-${shoeObject.shoe.id}" name="quantity" value="${shoeObject.qty}" min="1" max="5"></td>
             <td>a:Pris: ${shoeObject.shoe.price} kr</td>
         <td id="totalPrice-${shoeObject.shoe.id}">Totalt: ${shoeObject.totalPrice()} kr</td>
-        <td><button id="removeShoe-${shoeObject.shoe.id}"><i class="far fa-trash-alt removeShoe " ></i></button></td>
-        </tr>`);
+        <td><button class="add-btn" id="removeShoe-${shoeObject.shoe.id}"><i class="far fa-trash-alt removeShoe"></i></button></td>
+        </tr> 
+        <hr>`);
         }
     //append shoeorder on order confirmation page
         function displayOrderConf(shoe) {
@@ -187,7 +188,7 @@ $(document).ready(function () {
         function displTotOrderPrice(orderTotal) {
             $('#totalCartPrice').text('Totalt: ' + orderTotal + ' kr')
         }
-        //update total price for product
+//update total price
         function updateTotProductPrice(shoe) {
             $('#totalPrice-' + shoe.shoe.id).html(`<td id="totalPrice-${shoe.shoe.id}">Totalt: ${shoe.totalPrice()} kr</i></button></td>`);
         }
